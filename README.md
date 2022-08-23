@@ -77,6 +77,4 @@ who participated in this project.
 
 ## Acknowledgments
 
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+...
