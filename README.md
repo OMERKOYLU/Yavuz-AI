@@ -3,7 +3,7 @@
 Yavuz is a chess ai which has been developing by Ömer Köylü since 2021, I used genethic algoritm for train it and also get help off game theory, minmax algorithm and alpha beta pruning to make it faster.
 
 Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+[git](https://github.com/OMERKOYLU/Yavuz-AI).
 
 ## Getting Started
 
@@ -14,51 +14,43 @@ for notes on deploying the project on a live system.
 ### Prerequisites
 
 Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+- Only requirement is php running server for run train script on browser.
+- if you want to play against Yavuz you must have compatible browser(to run javascript code).
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development
-environment running
+first the step will be
+    - install php 7.0 server on your machine
+    - enter the directory *www/public_html*
 
-Say what the step will be
+and then run the following command on your *terminal* at your **public_html** directory
 
-    Give the example
+    - git clone https://github.com/OMERKOYLU/Yavuz-AI
 
-And repeat
-
-    until finished
-
-End with an example of getting some data out of the system or using it
-for a little demo
+[near there will be image that shows running code]
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+    After installing project if you want to run train script you must visit **http://localhost/Train/start_to_train.html**
+    
+    if you want to play a game against Yavuz you must visit **http://localhost/Game/play.html**
 
-### Sample Tests
+### Weaknesses which you may solve
 
-Explain what these tests test and why
+    our code can play at depth 6 on average machine you trust yourself and solve this we expect the code will able to play at depth 20
 
-    Give an example
+### Files
+...
 
-### Style test
+### Important Notes
 
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
+...
 
 ## Built With
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+    - in this project i used [chessboardjs](https://chessboardjs.com/) for visualize board.
+    - I used [libchess](https://github.com/kz04px/libchess) for build webassembly file with C++
+
 
 ## Contributing
 
@@ -67,24 +59,21 @@ of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
+We use github for versioning. For the versions
 available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+repository](https://github.com/OMERKOYLU/Yavuz-AI).
 
 ## Authors
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+  - **Ömer KÖYLÜ** 
 
 See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
+[contributors](https://github.com/OMERKOYLU/Yavuz-AI/edit/main/README.md)
 who participated in this project.
 
 ## License
 
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
+...
 
 ## Acknowledgments
 
